@@ -86,14 +86,14 @@
   .itens-do-menu a {
     white-space: nowrap;
   }
-/* 
+
   #logo {
     display: none;
   }
 
   #logo-media {
     display: block;
-  } */
+  }
 
   .footer-columns {
     grid-template-columns: 31% 18% 29% 22%;
