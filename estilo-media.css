@@ -60,7 +60,11 @@
 @media (max-width: 750px) {
 
   .logo-do-menu {
-    font-size: 16px;
+    font-size: 18px;
+  }
+
+  .itens-do-menu a {
+    font-size: 13px;
   }
 
   header {
@@ -207,7 +211,7 @@
   .footer-column a {
     font-size: 80%;
   }
-  
+
   .container-de-jogos {
     display: grid;
     grid-template-columns: 1fr 1fr;
