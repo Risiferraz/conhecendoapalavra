@@ -1,0 +1,21 @@
+@media (max-width: 875px) {
+
+    .container-de-historias {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 701px) {
+
+    .itens-do-menu {
+        gap: 0.45rem;
+    }
+
+    #material-de-apoio {
+        display: none;
+    }
+
+    #mat-de-apoio-media {
+        display: inline-block;
+    }
+}

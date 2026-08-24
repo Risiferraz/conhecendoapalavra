@@ -59,6 +59,10 @@
 
 @media (max-width: 750px) {
 
+  .container {
+    max-width: 98vw;
+  }
+
   .logo-do-menu {
     font-size: 18px;
   }
@@ -76,7 +80,7 @@
   }
 }
 
-@media (max-width: 675px) {
+@media (max-width: 690px) {
   .menu {
     display: grid;
     grid-template-columns: 33% 67%;
