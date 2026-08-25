@@ -154,6 +154,10 @@
         position: relative;
     }
 
+    h1 {
+        font-size: 2rem;
+    }
+
     .container-de-quebra-cabecas {
         grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     }

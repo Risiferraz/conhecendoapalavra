@@ -127,6 +127,15 @@ body {
 
 /* ****************** - QUEBRA-CABEÇAS - ********************** */
 
+h1 {
+  font-size: 2.5rem;
+  margin: 2rem auto 1.5rem;
+  font-family: 'Instrument Sans', sans-serif;
+  color: #c47a0c;
+  border-bottom: 3px solid rgba(107, 62, 30, 0.2);
+  width: fit-content;
+}
+
 .container-de-quebra-cabecas {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
