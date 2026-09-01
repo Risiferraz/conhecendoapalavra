@@ -59,8 +59,16 @@
 
 @media (max-width: 750px) {
 
+  .container {
+    max-width: 98vw;
+  }
+
   .logo-do-menu {
-    font-size: 16px;
+    font-size: 18px;
+  }
+
+  .itens-do-menu a {
+    font-size: 13px;
   }
 
   header {
@@ -72,7 +80,7 @@
   }
 }
 
-@media (max-width: 675px) {
+@media (max-width: 690px) {
   .menu {
     display: grid;
     grid-template-columns: 33% 67%;
@@ -121,8 +129,16 @@
   }
 
   .menu {
-    grid-template-columns: 20% 70% 10%;
+    grid-template-columns: 24% 66% 10%;
     position: relative;
+  }
+
+  #menu-icon {
+    align-self: center;
+  }
+
+  .menu .menu-icon {
+    display: block;
   }
 
   .logo-do-menu {
@@ -168,10 +184,6 @@
     text-align: right;
   }
 
-  .menu .menu-icon {
-    display: block;
-  }
-
   header {
     grid-template-columns: 100% 0;
     grid-template-rows: repeat(4, auto);
@@ -207,7 +219,7 @@
   .footer-column a {
     font-size: 80%;
   }
-  
+
   .container-de-jogos {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -228,7 +240,7 @@
   }
 
   .footer-column a {
-    font-size: 70%;
+    font-size: 74%;
   }
 }
 
@@ -236,5 +248,12 @@
 
   #slogan {
     font-size: 96%;
+  }
+
+  @media (max-width: 375px) {
+
+    .footer-column a {
+      font-size: 77%;
+    }
   }
 }
