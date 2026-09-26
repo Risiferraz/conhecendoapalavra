@@ -1,4 +1,5 @@
 console.log('Script carregado');
+// Script para tornar todo o item "li" clicável não apenas o link
 document.addEventListener('DOMContentLoaded', () => {
     const item = document.getElementById('eclesiastes12-1');
     const anchor = item?.querySelector('a');
